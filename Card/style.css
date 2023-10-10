@@ -1,0 +1,114 @@
+.card {
+    width: 300px;
+    height: 390px;
+    background-color: darkred;
+}
+
+.titulo {
+    width: 100%;
+    height: 30px;
+    background-color: #930031;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.curso {
+    width: 100%;
+    height: 60px;
+    background-image: linear-gradient(to right, #e27589, #930031);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc {
+    width: 100%;
+    height: 90px;
+    background-image: linear-gradient(to right, #e27589, #930031);
+    color: white;
+    display: flex;
+    text-align: center;
+    font-size: large;
+}
+
+.desc p{
+    padding: 10px;
+}
+
+.local{
+    width: 100%;
+    height: 50px;
+    background-color: #930031;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img{
+    filter: invert();
+}
+
+.cardbaixo {
+    width: 100%;
+    height: 160px;
+    background-color: darkred;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    width: 40%;
+    height: 160px;
+    background-color: #930031;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.texto {
+    width: 60%;
+    height: 160px;
+    background-color: lightpink;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.inscrever {
+    width: 99%;
+    height: 39px;
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inscrever:hover {
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo{
+    height: 80%;
+    overflow-y: scroll;
+    text-align: center;
+    
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
